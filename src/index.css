@@ -4,7 +4,7 @@
   text-decoration: none;
 }
 
-.navbar {
+.navbar{
   width: 50%;
   margin: 0 auto;
   padding: 50px;
@@ -15,7 +15,7 @@
 .navbar ul{
   width: 150px;
   display: flex;
-  gap: 2px;
+  gap : 2px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -23,25 +23,24 @@
 
 .container{
   width: 50%;
-  padding: auto;
-  
-
+  margin: auto;
 }
 
-.container input{
+.container input {
   width: 100%;
   padding: 20px;
 }
 
-.card {
+.card{
   width: 100%;
   padding: 20px;
+
   margin-top: 20px;
   border: 1px solid black;
 }
 
-form {
-  margin-top: 20px;
+form{
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -50,3 +49,4 @@ form input{
   padding: 5px !important;
   margin-bottom: 10px;
 }
+
