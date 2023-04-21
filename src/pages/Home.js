@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
+// GET DATA
 const [data, setData] = useState(null)
 
     useEffect(() => {
@@ -11,6 +12,7 @@ const [data, setData] = useState(null)
         })
     }, [])  
 
+// Filtering
 const handleSearch = (event) => {
     let search = data.filter((respons)=>{
         if (event.target.value === ""){
